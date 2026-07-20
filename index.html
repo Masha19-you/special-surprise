@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Jan ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Password Page -->
+    <div id="loginPage">
+
+        <h1>🔒 Secret Surprise</h1>
+
+        <p>Enter the password to continue</p>
+
+        <input
+            type="password"
+            id="password"
+            placeholder="Password">
+
+        <button onclick="checkPassword()">
+            Unlock ✨
+        </button>
+
+        <p id="error"></p>
+
+    </div>
+
+    <!-- Surprise Page -->
+    <div id="surprisePage">
+
+        <div class="hearts">
+            <span>❤️</span>
+            <span>💕</span>
+            <span>💖</span>
+            <span>❤️</span>
+            <span>💗</span>
+        </div>
+
+        <div class="teddy-container">
+            <img src="Images/Brown teddy.png" id="brownTeddy" alt="Brown Teddy">
+            <img src="Images/White teddy.png" id="whiteTeddy" alt="White Teddy">
+        </div>
+
+        <h1>Hey Jan ❤️</h1>
+
+        <h2>I've been missing you...</h2>
+
+        <p>
+            Her Din un xum bagair gunikixan gayshila...<br>
+            Gutay gor desmanah bah, special feel gochr..... Akhar shua echr beya
+        </p>
+
+        <button id="heartBtn" onclick="openLetter()">
+            Open My Heart 💌
+        </button>
+
+        <!-- Typewriter Letter -->
+        <div id="letter" class="letter">
+
+            <h2>To My Husband ❤️</h2>
+
+            <p id="typingText"></p>
+
+        </div>
+
+        <!-- Photo Slideshow -->
+        <div class="slideshow">
+
+            <h2>📸 Ayarum ene</h2>
+
+            <img
+                id="slide"
+                src="Photos/photo1.jpg"
+                alt="Ayarum ene">
+
+        </div>
+
+    </div>
+
+</div>
+
+<audio id="bgMusic" loop>
+    <source src="music/music.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+
+</body>
+</html>
