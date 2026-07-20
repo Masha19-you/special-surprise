@@ -2,13 +2,13 @@ const PASSWORD = "Jan";
 
 const letter = `My dearest Jan,
 
-I know un ja xum mathan bah but mathan 80km, lkn tay gunx an api amit lo ja un yaad akotah bah k.
+Un ja xum mathan bah but mathan 80km, lkn tay gunx an api amit lo ja un yaad akotah bah k.
 
 Her smile e une yaad dashi bi.
 
 Ja her dua lo un bah.
 
-Ja her heartbeat e une guik gaybi.
+Ja her heartbeat e une guik gaibi.
 
 Ja gutay gor loved feel gotas ganay desmanah bah, mathan ban kuli love kam omanas awaji na joten efforts en xum e love aur relation oltalik strong maybexan.
 
@@ -89,10 +89,10 @@ function typeWriter(){
 
 }
 const photos = [
-    "Photos/photo1.jpg",
-    "Photos/photo2.jpg",
-    "Photos/photo3.jpg",
-    "Photos/photo4.jpg"
+    "photo1.jpg",
+    "photo2.jpg",
+    "photo3.jpg",
+    "photo4.jpg"
 ];
 
 let currentPhoto = 0;
